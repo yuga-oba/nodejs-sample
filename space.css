@@ -1,0 +1,69 @@
+body {
+  background: radial-gradient(circle at bottom, #000428, #004e92); /* 星空風の背景 */
+  color: #ffffff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #00b3ff, 0 0 20px #00b3ff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00b3ff;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #00b3ff, 0 0 30px #00b3ff;
+}
+
+.textColumn {
+  padding: 2em;
+  background: transparent;
+  text-align: right;
+}
+
+.textColumn h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+.textColumn p {
+  font-size: 1.2rem;
+  color: #d1d1d1;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #00b3ff;
+}
+
+.linksColumn {
+  background: rgba(0, 0, 0, 0.8); /* 半透明の背景 */
+  padding: 2em;
+}
+
+.linksColumn h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1em 0;
+}
+
+li a {
+  font-size: 1.2rem;
+  color: #00b3ff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #00b3ff;
+}
+
+li a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #00b3ff, 0 0 30px #00b3ff;
+}
